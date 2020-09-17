@@ -91,3 +91,18 @@ return
 !<+=::
 Send {F12}
 return
+
+; Alt (!) + Left Shift (<+) + Control (^) + -
+!<+^-::
+Send {Volume_Down}
+return
+
+; Alt (!) + Left Shift (<+) + Control (^) + =
+!<+^=::
+Send {Volume_Up}
+return
+
+; Alt (!) + Left Shift (<+) + Control (^) + =
+!<+^BS::
+Send {Volume_Mute}
+return
