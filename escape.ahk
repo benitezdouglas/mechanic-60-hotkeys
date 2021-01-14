@@ -92,17 +92,37 @@ return
 Send {F12}
 return
 
-; Alt (!) + Left Shift (<+) + Control (^) + -
-!<+^-::
+; Alt (!) + Left Shift (<+) + Control (^) + j Diminui volume
+!<+^j::
 Send {Volume_Down}
 return
 
-; Alt (!) + Left Shift (<+) + Control (^) + =
-!<+^=::
+; Alt (!) + Left Shift (<+) + Control (^) + k Aumenta volume
+!<+^k::
 Send {Volume_Up}
 return
 
-; Alt (!) + Left Shift (<+) + Control (^) + =
-!<+^BS::
+; Alt (!) + Left Shift (<+) + Control (^) + m Muta o som
+!<+^m::
 Send {Volume_Mute}
 return
+
+; Alt (!) + Left Shift (<+) + Control (^) + h Midia anterior
+!<+^h::
+Send {Media_Prev}
+return
+
+; Alt (!) + Left Shift (<+) + Control (^) + l Proxima Midia
+!<+^l::
+Send {Media_Next}
+return
+
+; Alt (!) + Left Shift (<+) + Control (^) + Dá play ou pausa Midia
+!<+^p::
+Send {Media_Play_Pause}
+return
+
+; multiple desktops hotkey
+^#l::Send ^#{Right}
+
+^#h::Send ^#{Left}
