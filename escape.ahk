@@ -121,8 +121,3 @@ return
 !<+^p::
 Send {Media_Play_Pause}
 return
-
-; multiple desktops hotkey
-^#l::Send ^#{Right}
-
-^#h::Send ^#{Left}
