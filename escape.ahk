@@ -3,7 +3,7 @@
 Send, {Esc}
 return
 
-;Left Shift (<+) + BackSpace + a (BS) Executa Del
+;Left Shift (<+) + BackSpace (BS) Executa Del
 !BS::
 Send, {Delete}
 
@@ -115,4 +115,9 @@ return
 ; Alt (!) + Left Shift (<+) + Control (^) + l Proxima Midia
 !<+^l::
 Send {Media_Next}
+return
+
+; Alt (!) + Left Shift (<+) + Control (^) + Dá play ou pausa Midia
+!<+^p::
+Send {Media_Play_Pause}
 return
