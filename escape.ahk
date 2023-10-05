@@ -116,8 +116,3 @@ return
 !<+^l::
 Send {Media_Next}
 return
-
-; Alt (!) + Left Shift (<+) + Control (^) + Dá play ou pausa Midia
-!<+^p::
-Send {Media_Play_Pause}
-return
