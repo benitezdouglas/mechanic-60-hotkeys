@@ -3,6 +3,10 @@
 Send, {Esc}
 return
 
+;Left Shift (<+) + BackSpace + a (BS) Executa Del
+!BS::
+Send, {Delete}
+
 ; Alt (!) + h Executa Left Arrow
 !h::
 Send, {Left}
